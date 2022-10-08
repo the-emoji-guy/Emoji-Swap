@@ -64,7 +64,8 @@
 
 
 <div id="BigEmojiTable">
-<input class=search placeholder="List contains 4k+ characters. Search may be slow. Typing slowly sometimes helps." />
+<input id="inputX"  type="text" /><br/>
+<input id="search" class="search" placeholder="List contains 4k+ characters. Search may be slow. Typing slowly sometimes helps." />
 <ul class="list aa">
 
 <li class=bb>
@@ -42642,6 +42643,9 @@
 <script>
 var options = { valueNames: [ 'ee', 'ff' ], searchDelay: 2000, indexAsync: true };
 var EmojiList = new List('BigEmojiTable', options);
+
+var mail = document.getElementById("search");
+document.getElementById("inputX").keyup(function() { mail.value = this.value; });
 </script>
 </body>
 </html>
