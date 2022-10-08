@@ -42645,7 +42645,10 @@ var options = { valueNames: [ 'ee', 'ff' ], searchDelay: 2000, indexAsync: true 
 var EmojiList = new List('BigEmojiTable', options);
 
 var mail = document.getElementById("search");
-document.getElementById("inputX").keyup(function() { mail.value = this.value; });
+document.getElementById("inputX")
+        .addEventListener("keypress", function () {
+            mail.value = this.value;
+		  });
 </script>
 </body>
 </html>
