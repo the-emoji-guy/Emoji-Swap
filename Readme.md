@@ -18,3 +18,8 @@ Install from  here:
 Test emojis here:
 
 * https://the-emoji-guy.github.io/Emoji-Swap/i-want-to/TestMyEmojis.html
+
+
+<br/>
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R5R3AEHED)
